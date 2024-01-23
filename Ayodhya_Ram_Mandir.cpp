@@ -70,7 +70,7 @@ int main()
 	initwindow(600,400,"RAM MANDIR");
 	setcolor(15);
 	setfillstyle(CLOSE_DOT_FILL,15);
-	//floodfill(1,1,15);
+	floodfill(1,1,15);
 	line(132,39,132,64);
 	line(132,64,127,69);
 	line(127,69,130,73);
